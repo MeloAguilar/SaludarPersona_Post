@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model SaludarPersona_Post_Entities.clsPersona
+
+<form method="post">
+    Nombre<br/>
+    @Html.TextBox("_nombre")<br/>
+    Apellidos<br/>
+    @Html.TextBox("_apellidos")<br/>
+    <input type="submit" name="Enviar"/>
+</form>
+
+
